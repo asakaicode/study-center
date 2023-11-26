@@ -7,12 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
+  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "apollo-server": "^2",
+    "eslint-config-prettier": "^9.0.0",
     "graphql": "^14.6.0",
     "prettier": "^3.1.0",
-    "yarn": "^1.22.21"
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
   }
 }
