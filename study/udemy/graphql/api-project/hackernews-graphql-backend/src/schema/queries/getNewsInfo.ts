@@ -1,3 +1,5 @@
-export default function getNewsInfo() {
+const getNewsInfo = () => {
   return 'HackerNews!!'
 }
+
+export default getNewsInfo
